@@ -4018,7 +4018,7 @@ button.mfp-arrow {
 .position-location span {
     font-family: 'Barlow', sans-serif;
     font-size: 15px;
-    color: #222;
+    color: #000;
     display: block;
     text-transform: none;
     letter-spacing: 0px;
@@ -4045,18 +4045,10 @@ button.mfp-arrow {
     display: inline-block
 }
 /* hover */
-.position:hover {
-    background-color: #aa8453;
-}
-.position:hover .position-title,
-.position:hover .position-title span,
-.position:hover .position-location,
-.position:hover .position-location span,
-.position:hover .position-time,
-.position:hover .position-time span,
-.position:hover .position-icon {
-    color: #fff;
-}
+
+
+
+
 @media only screen and (max-width:991px) {
     .position {
         flex-direction: column;
